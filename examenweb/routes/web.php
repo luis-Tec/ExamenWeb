@@ -20,15 +20,8 @@ use App\Http\Controllers\HomeController;
 Route::get('/', function () {
     return view('welcome');
 });
-/*
-Route::get('/clients', [ClientsController::class, 'index'])
-->name('clients.index');
-Route::get('/clients/create', [ClientsController::class, 'create'])
-->name('clients.create');
-Route::post('/clients/create', [ClientsController::class, 'store'])
-->name('clients.store');
-*/
 
+//Rutas de las vistas
 Route::resource('clients', ClientsController::class);
 Route::resource('productos', ProductosController::class);
 Route::resource('inventarios', InventarioController::class);
