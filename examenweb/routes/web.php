@@ -34,3 +34,5 @@ Route::resource('productos', ProductosController::class);
 Route::resource('inventarios', InventarioController::class);
 Route::resource('tipopagos', TipoPagosController::class);
 
+Route::get('/home', [HomeController::class, 'index'])
+->name('home.index');

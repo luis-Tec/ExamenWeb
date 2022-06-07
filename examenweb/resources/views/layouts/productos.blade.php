@@ -18,7 +18,7 @@
 
 
     <nav class="h-16 flex justify-end py-4 px--16">
-        <a href="{{route('productos.index')}}" class="border border-blue-500 rounded px-4 pt-1 h-10 bg-white text-blue-500 font-semibold mx-2">Productos</a>
+        <a href="{{route('home.index')}}" class="border border-blue-500 rounded px-4 pt-1 h-10 bg-white text-blue-500 font-semibold mx-2">home</a>
         <a href="{{route('productos.create')}}" class="border border-blue-500 rounded px-4 pt-1 h-10 bg-white text-blue-500 font-semibold mx-2">Crear</a>
     </nav>
 

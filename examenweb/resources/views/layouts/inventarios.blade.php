@@ -18,7 +18,7 @@
 
 
     <nav class="h-16 flex justify-end py-4 px--16">
-        <a href="{{route('inventarios.index')}}" class="border border-blue-500 rounded px-4 pt-1 h-10 bg-white text-blue-500 font-semibold mx-2">Inventarios</a>
+        <a href="{{route('home.index')}}" class="border border-blue-500 rounded px-4 pt-1 h-10 bg-white text-blue-500 font-semibold mx-2">Home</a>
         <a href="{{route('inventarios.create')}}" class="border border-blue-500 rounded px-4 pt-1 h-10 bg-white text-blue-500 font-semibold mx-2">Crear</a>
     </nav>
 
